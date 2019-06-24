@@ -19,6 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "CleanroomLogger",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"),
     ]
 )
